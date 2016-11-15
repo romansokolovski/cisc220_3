@@ -30,7 +30,7 @@ fi
 echo "---------------------------------------- "
 
 
-#checks and outputs if password strength
+#checks and outputs pass strength lvl
 if [ $strengthLvl == 1 ]; then
 	echo "Your password is Weak"
 elif [ $strengthLvl == 2 ]; then
